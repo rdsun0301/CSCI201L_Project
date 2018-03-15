@@ -1,0 +1,144 @@
+body{
+	font-family: 'Lucida Sans Unicode', sans-serif;
+	background-color: #f7fff7;
+    color: #343434;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    margin-top: -2%;
+    padding-bottom: 2px;
+    background-color: #8bc3ed;
+    width: 100%;
+    left: 0;
+}
+
+.header-icon{
+	height:40px;
+	width:40px;
+}
+#home-icon{
+	position:absolute;
+	left:10px;
+	top:20px;
+	margin:20
+}
+#gear-icon{
+	position:absolute;
+	top:20px;
+	right:80px;
+	float:right;
+}
+#exit-icon{
+	position:absolute;
+	top:20px;
+	right:20px;
+	
+}
+#logo {
+	position:relative;
+	left:10px;
+    color: #2f3061;
+    padding-top: 2%;
+    margin-left: 5%;
+}
+
+
+.toolButton{
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	font-family: "Times New Roman", Times, serif;
+	background-color:#F5F5F5;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	padding-bottom:4px;
+	cursor:pointer;
+}
+
+
+
+
+
+#toolBar{
+	position:absolute;
+	left:160px;
+	width:1100px;
+	background-color:#F5F5F5;
+	text-align:center;
+}
+
+
+
+#myPage{
+
+	width:100%;
+	height:600px;
+	border:1px solid lightgrey;
+}
+
+#iframe-container{
+	position:relative;
+	left:160px;
+	top:30px;
+	width:1100px;
+	height:600px;
+	background-color:white;
+}
+
+#icon-container{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	padding-bottom:0px;
+}
+
+#popup{
+	position:absolute;
+	top:30%;
+	left:30%;
+	width: 200px;
+	border: 1px solid lightgrey;
+	margin:10px;
+	padding:15px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color:white;
+	display:none;
+}
+#popup-quit{
+	position:relative;
+	top:-8px;
+	text-align:center;
+	font-size:10px;
+	adding:2px;
+	width:18px;
+	height:13px;
+	float:right;
+}
+#font-color-menu{
+	position:absolute;
+	top:30px;
+	left:350px; 
+	display: none; 
+	z-index: 2000; 
+	background-color: #F5F5F5;
+	height: 100px; 
+	width: 100px;
+}
+
+.color-block{
+	height:21px;
+	width:21px;
+}
+.color-cell{
+	padding:2px; 
+	float:left
+}
+.mypage-dir{
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}

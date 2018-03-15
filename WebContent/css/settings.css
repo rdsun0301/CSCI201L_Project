@@ -1,0 +1,12 @@
+@CHARSET "UTF-8";
+
+.settingsTable input {
+	border-radius: 7px;
+	font-size: 100%;
+	width: 100%;
+	background-color: white;
+}
+
+.settingsTable input[type='button']:not(#deleteUser) {
+	margin-left: 5px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MyPage - Sign Up</title>
+<link rel="stylesheet" type="text/css" href="../css/signup.css">
+<script type="text/javascript">
+	function signup() {
+		var req = new XMLHttpRequest(),
+		method = 'POST',
+		// TODO: Which URL?
+		url = '',
+		firstname = document.signup.firstname.value,
+		lastname = document.signup.lastname.value,
+		email = document.signup.email.value,
+		username = document.signup.username.value,
+		password = document.signup.password.value,
+		params = "firstname=" + firstname + "&lastname="+lastname+"&email="+email+"&username="+username+"&password="+password;
+		
+		console.log(params);
+		
+		return false; // TODO: DEBUG
+		
+		req.open(method, url, true);
+		req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+		req.onreadystatechange = function() {
+			console.log("state changed");
+		}
+		
+		req.send(params);
+		return false;
+	}
+</script>
+</head>
+<body>
+	<div id="title">
+		<h1>MyPage</h1>
+	</div>
+	<div id="content">
+
+	</div>
+</body>
+</html>

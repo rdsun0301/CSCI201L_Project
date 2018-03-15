@@ -1,0 +1,155 @@
+body{
+	font-family: 'Lucida Sans Unicode', sans-serif;
+	background-color: #f7fff7;
+    color: #343434;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    margin-top: -2%;
+    padding-bottom: 2px;
+    background-color: #8bc3ed;
+    width: 100%;
+    left: 0;
+}
+
+.header-icon{
+	height:40px;
+	width:40px;
+}
+#home-icon{
+	position:absolute;
+	left:10px;
+	top:20px;
+	margin:20
+}
+#gear-icon{
+	position:absolute;
+	top:20px;
+	right:80px;
+	float:right;
+}
+#exit-icon{
+	position:absolute;
+	top:20px;
+	right:20px;
+	
+}
+#logo {
+	position:relative;
+	left:10px;
+    color: #2f3061;
+    padding-top: 2%;
+    margin-left: 5%;
+}
+
+
+.toolButton{
+	text-align:center;
+	border-style:solid;
+	border-width:1px;
+	float:left;
+	font-family: "Times New Roman", Times, serif;
+	background-color:#F5F5F5;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	padding-bottom:0px;
+}
+
+
+
+
+
+#toolBar{
+	position:absolute;
+	left:10%;
+	width:80%;
+	background-color:#F5F5F5;
+	text-align:center;
+}
+
+
+
+#myPage{
+
+	width:100%;
+	height:600px;
+	border:1px solid lightgrey;
+}
+
+#iframe-container{
+	position:relative;
+	left:10%;
+	top:30px;
+	width:80%;
+	height:600px;
+	background-color:white;
+}
+
+#icon-container{
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:4px;
+	padding-bottom:0px;
+}
+
+#popup{
+	position:absolute;
+	top:30%;
+	left:30%;
+	width: 200px;
+	border: 1px solid lightgrey;
+	margin:10px;
+	padding:15px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color:white;
+	display:none;
+}
+#popup-quit{
+	position:relative;
+	top:-8px;
+	text-align:center;
+	font-size:10px;
+	adding:2px;
+	width:18px;
+	height:13px;
+	float:right;
+}
+#dashTH {
+	width: 150px;
+	text-align: left;
+	border-bottom: 1pt solid black;
+	border-top: 1pt solid black;
+	margin-bottom: 5%;
+	height: 30px;
+}
+
+#dashTD {
+	width: 150px;
+}
+
+#centeredTable {
+	margin: auto;
+}
+
+#padding {
+	padding: 10px 60px 0px;
+	font-size: 150%;
+}
+
+#select option {
+	width: 100%;
+}
+
+.settingsTable {
+	text-align: center;
+}
+
+.settingsTable input {
+	width: 100%;
+}
+
+
+
