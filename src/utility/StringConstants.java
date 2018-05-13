@@ -4,6 +4,9 @@ public class StringConstants {
 	// Service Names
 	public static final String SERVICENAME = "MyPage";
 	
+	//Database URL
+	public static final String DATAURL = "mongodb://rdsun0301:pass123@cluster0-shard-00-00-jtlja.mongodb.net:27017,cluster0-shard-00-01-jtlja.mongodb.net:27017,cluster0-shard-00-02-jtlja.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true";
+	
 	// Actions
 	public static final String GENERICACTION = "GenericAction";
 	public static final String SIGNUPACTION = "UserSignUp";

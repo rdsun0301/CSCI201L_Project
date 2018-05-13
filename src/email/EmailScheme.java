@@ -63,7 +63,7 @@ public class EmailScheme {
 		} else if(name.equals(StringConstants.CHANGEEMAILACTION)) {
 			return StringConstants.SERVICENAME + ": Changing Email Confirmation";
 		} else if(name.equals(StringConstants.CHANGEPASSWORDACTION)) {
-			return StringConstants.SERVICENAME + ": Chaning Password Confirmation";
+			return StringConstants.SERVICENAME + ": Changing Password Confirmation";
 		} else if(name.equals(StringConstants.DELETEACCOUNTACTION)) {
 			return StringConstants.SERVICENAME + ": Deleting Account Confirmation";
 		}
@@ -72,7 +72,7 @@ public class EmailScheme {
 	}
 	
 	private String FormatMessage(String actionId, String actionName) {
-		return "http://192.168.1.49:8080/MyPage/EmailLinkManager?" + 
+		return "http://localhost:8080/MyPage/EmailLinkManager?" + 
 			StringConstants.ACTIONID + "=" + actionId + "&" 
 			+ StringConstants.ACTIONNAME + "=" + actionName;
 	}

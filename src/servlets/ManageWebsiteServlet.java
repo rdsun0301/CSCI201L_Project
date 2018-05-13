@@ -36,7 +36,7 @@ public class ManageWebsiteServlet extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		String websiteName = request.getParameter("website");
 		//System.out.println(websiteName);
-		Database db = new Database(new MongoClient(new MongoClientURI("mongodb://admin:mypage123@yousifd.vms.uscnsl.net/test")), "test");
+		Database db = new Database(new MongoClient(new MongoClientURI(StringConstants.DATAURL)), "test");
 		User currentUser = (User)request.getSession().getAttribute(StringConstants.CURRENTUSER);
 		String action = request.getParameter("action");
 		if(action.equals("edit")) {

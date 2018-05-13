@@ -40,7 +40,7 @@ public class SignUpServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
 		
-		Database db = new Database(new MongoClient(new MongoClientURI("mongodb://admin:mypage123@yousifd.vms.uscnsl.net/test")), "test");
+		Database db = new Database(new MongoClient(new MongoClientURI(StringConstants.DATAURL)), "test");
 		User user = db.ReadFromUsersCollection(username);
 		if(user != null) {
 			request.setAttribute("errorsignup", "Username already in use.");

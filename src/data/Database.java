@@ -18,7 +18,7 @@ public class Database {
 	private Map<String, Website> websites;
 	
 	public static void main(String [] args) {
-		Database db = new Database(new MongoClient(new MongoClientURI("mongodb://admin:mypage123@yousifd.vms.uscnsl.net/test")), "test");
+		Database db = new Database(new MongoClient(new MongoClientURI(StringConstants.DATAURL)), "test");
 
 		User user = new User("Richard", "Sun", "sunr@usc.edu", "sunr", "qwe");
 		db.WriteToUsersCollection(user);

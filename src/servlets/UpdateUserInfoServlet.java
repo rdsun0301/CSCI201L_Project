@@ -35,7 +35,7 @@ public class UpdateUserInfoServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		Database db = new Database(new MongoClient(new MongoClientURI("mongodb://admin:mypage123@yousifd.vms.uscnsl.net/test")), "test");
+		Database db = new Database(new MongoClient(new MongoClientURI(StringConstants.DATAURL)), "test");
 		User user = (User)request.getSession().getAttribute(StringConstants.CURRENTUSER);
 		
 		EmailScheme emailscheme = new EmailScheme();
